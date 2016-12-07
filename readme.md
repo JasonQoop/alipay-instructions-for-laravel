@@ -115,7 +115,7 @@ public function result(Request $request){
         } else{
             Log::info('支付失败!!');
         }
-    }catch (\Exception $e){
+    }catch (Exception $e){
         Log::info('支付失败!!!');
     }
 }
